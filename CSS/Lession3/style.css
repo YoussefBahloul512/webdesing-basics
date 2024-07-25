@@ -1,0 +1,15 @@
+h1#title{
+    color: red;
+    background-color: cyan;
+}
+.title{
+    color: blue;
+    background-color: black;
+}
+/*div > h1{
+    color: darkblue;
+    background-color: fuchsia;
+}*/
+[type = "text"]{
+    border: 2px solid orangered;
+}

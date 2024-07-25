@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en,ar">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="slider.css">
+    <title>My Website</title>
+</head>
+<body>
+    
+    <main>
+        <section id="header">
+          <div id="branding" style="flex-grow: 8">
+            <h1>
+              <a href="index.html"
+                ><i class="fas fa-user-circle"></i> صفحة <span class="highlight">اسم الطالب</span></a
+              >
+            </h1>
+          </div>
+          <nav>
+            <ul>
+              <li><a href="index.html">الرئيسية</a></li>
+              <li class="current"><a href="gallery.html">معرض الأعمال</a></li>
+            </ul>
+          </nav>
+        </section>
+      
+        <section id="slider">
+          <div id="wrapper">
+            <div class="content">
+              <img src="img/Desk 1.jpg" />
+            </div>
+            <div class="content">
+              <img src="img/Desk2.jpg" />
+            </div>
+            <div class="content">
+              <img src="img/Desk 3.jpg" />
+            </div>
+            <div class="content">
+              <img src="img/Desk 4.jpg" />
+            </div>
+          </div>
+          <div id="navLinks">
+            <ul>
+              <li class="itemLinks" data-pos="0"></li>
+              <li class="itemLinks" data-pos="1"></li>
+              <li class="itemLinks" data-pos="2"></li>
+              <li class="itemLinks" data-pos="3"></li>
+            </ul>
+          </div>
+        </section>
+      
+        <section id="footer">
+          <p>الصفحة الشخصية لاسم المسجل &copy; <span id="currentYear"></span></p>
+        </section>
+      </main>
+
+
+
+
+
+
+
+
+
+
+
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <script src="slider.js"></script>
+</body>
+</html>

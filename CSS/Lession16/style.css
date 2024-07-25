@@ -1,0 +1,14 @@
+.content{
+    background-color: indianred;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+nav{
+    float: left;
+    width: 200px;    
+}
+.clear{
+    clear: left;
+}

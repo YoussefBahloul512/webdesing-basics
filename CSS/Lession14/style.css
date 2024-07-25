@@ -1,0 +1,16 @@
+.post{
+    display: inline-block;
+    height: 160px;
+    width: 160px;
+    border: 1px solid gray;
+    background-color: lavender;
+}
+.post:last-child{
+    position: relative; /*ERROR: position: absolute; // position: fixed;  */
+    left: 40px;
+    top: 50px;
+}
+#content{
+    height: 900px;
+
+}

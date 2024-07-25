@@ -1,0 +1,12 @@
+.container > div{
+    background-color: #49927a;
+    width: 400px;
+    margin: 20px;
+    font-size: 40px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}

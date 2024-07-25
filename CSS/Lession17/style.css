@@ -1,0 +1,8 @@
+@font-face {
+    font-family: Jomhuria;
+    src: url(Jomhuria/Jomhuria-Regular.ttf);
+}
+h1{
+    font-family: Jomhuria;
+    color: purple;
+}
